@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title> welcome to adi's pizzeria</title>
+        
+
+        <style>
+            body {background-color: beige;}
+            table{border-collapse:collapse;}
+            tr,td,th{border: 2px solid black}
+            th{font:bold; color:blueviolet}
+            p {font-family: verdana; font-size: 150%;}
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color :crimson"> ADI'S PIZZERIA BEST PIZZAS IN TOWN ! </h1>
+        <p> Buy now for just 10 $ </p>
+
+        <h2> Available online too ! </h2>
+        <a href="https://www.ubereats.com"> UBER EATS </a>
+
+        <br>
+        <img src="https://littlesunnykitchen.com/wp-content/uploads/2022/03/Pepperoni-Pizza-1.jpg" style="width:300px;">
+
+        <h3 style="color :brown;"> CALL US AT : 911 </h3>
+        <h4>BON APPETITE!</h4>
+        <table>
+            <caption style= "color:aquamarine;"; align="centre">MENU</caption>
+
+            <tr>
+                <th>ITEMS </th>
+                <th>PRICE </th>
+            </tr>
+
+            <tr>
+                <td> Margerita </td>
+                <td>9.99$</td>
+            </tr>
+            <tr>
+                <td>Pepperoni</td>
+                <td>8.99$</td>
+            </tr>
+        </table>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="submit" value="Submit">
+          </form>
+          <p>Please choose your mode of payment:</p>
+
+          <form>
+            <input type="radio" id="cash" name="fav_language" value="Cash">
+            <label for="cash">Cash</label><br>
+            <input type="radio" id="c" name="fav_language" value="Card">
+            <label for="c">Card</label><br>
+            <input type="radio" id="sc" name="fav_language" value="store credit">
+            <label for="sc">store credit</label>
+          </form>
+    </body>
+</html>
